@@ -1,0 +1,90 @@
+.gradient-background {
+    background: linear-gradient(300deg, yellow,yellowgreen,yellow);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    padding: 20px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+#hero {
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:violet;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Features section styles */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 24px;
+}
+
+/* Footer styles */
+footer {
+    background-color:black;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: auto;
+}
+/*h1{
+    background-color: black;
+}
